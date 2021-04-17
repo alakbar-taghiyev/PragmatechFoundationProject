@@ -61,16 +61,49 @@
 .navbar-main {
     display: flex;
     justify-content: space-between;
+    padding: 200px 0px;
 }
 
 .navbar-main-content {
-    border: 2px solid gray;
+  
+    max-width: 400px;
 }
 
 .navbar-main-table {
     border: 2px solid gray;
 }
 
+.heading2 h2 {
+    font-size: 1.5em;
+    font-weight: 700px;
+    color: black;
+}
+
+.heading1 h1 {
+    font-size: 2.5em;
+    font-weight: 700px;
+    color: black;
+}
+
+.paragraph p {
+    font-size: 1em;
+    font-weight: 200px;
+    color: black;
+    margin: 25px 0px;
+}
+
+.searchbutton {
+    display: flex;
+    justify-content:space-between;
+    border: 1px solid gray;
+    color: black;
+}
+
+.button {
+    background:#4CAF50;
+    cursor: pointer;
+    border-radius: 10px;
+}
 
 
 
