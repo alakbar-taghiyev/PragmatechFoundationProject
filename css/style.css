@@ -1,0 +1,90 @@
+#header {
+    background-image: url(../img/slide01.jpg);
+    color: white;
+}
+/* navbar hissesi bashladi */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding: 15px 0px;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo span {
+    font-size: 30px;
+    padding-left: -9px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.menu ul li {
+    margin: 0px 40px;
+    list-style: none;
+    
+}
+.registration {
+    display: flex;
+    justify-content: space-between;
+}
+
+.registration ul {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.registration ul li {
+    margin: 0px 33px;
+    list-style: none;
+}
+
+.registration ul li i {
+    margin-right: 7px;
+}
+
+/* navbar hissesi tamamlandi */
+
+.navbar-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-main-content {
+    border: 2px solid gray;
+}
+
+.navbar-main-table {
+    border: 2px solid gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* navbar-main hissesi bashladi */
+
