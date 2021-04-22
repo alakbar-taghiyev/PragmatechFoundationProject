@@ -1,0 +1,16 @@
+.comman-section-header{
+    text-align: center;
+    padding: 20px;
+    line-height: 40px;
+}
+
+.comman-section-header h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.comman-section-header h1 {
+    /* letter-spacing: 1px; */
+    font-size: 40px;
+    font-weight: 700;
+}

@@ -15,11 +15,22 @@
 
 .logo {
     display: flex;
+    position: relative; /* baxarsan buna */
+}
+.logo img {
+    object-fit: cover;
+    padding-top: 0px;
+    margin-top: 0px;
+    width: 52px;
+    height: 52px;
 }
 
 .logo span {
     font-size: 30px;
-    padding-left: -9px;
+    padding-left: 0px;
+    padding-top: 25px;
+    position: absolute; /* baxarsan buna */
+    left: 40px;
 }
 
 .menu {
@@ -61,6 +72,7 @@
 
 /* navbar hissesi tamamlandi */
 
+/* navbar-main hissesi bashladi */
 .navbar-main {
     display: flex;
     justify-content: space-between;
@@ -73,7 +85,10 @@
 }
 
 .navbar-main-table {
-    border: 2px solid gray;
+    display: flex;
+   /*  justify-content: center; */
+    color: black;
+    justify-content: end;
 }
 
 .heading2 h2 {
@@ -121,18 +136,166 @@
 
 }
 
+/* navbar-main hissesi  */
+
+/* navbar-main-bottom hissesi bashladi */
+
+#header-bottom {
+    background-color: #5caf01;
+}
+.navbar-main-bottom {
+    border: 1px solid gray;
+}
+
+.course .icon-style i {
+    display: inline-block;
+}
+
+.people .icon-style h6 {
+    display: inline-block;
+}
+
+.countries .icon-style p {
+    display: inline-block;
+}
+
+.navbar-main-table {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+}
+
+.navbar-main-table-items {
+    padding: 20px;
+    text-align: center;
+    color: green;
+    width: 80px ;
+    margin: 5px 5px;
+    font-size: 15px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    
+}
+
+.navbar-main-table-items h2{
+    color: white;
+}
+
+.navbar-main-table-items i {
+    font-size: 25px;
+}
+
+.header-bottom {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+  
+    font-size: 20px;
+}
+
+.header-bottom .content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 20px;
+ 
+    color: white;
+}
+
+.header-bottom .content .icon-style {
+   
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    font-size: 30px;
+}
+
+.header-bottom .content .icon-style i{
+    position: absolute;
+    top: 15px;
+    left: 45px;
+}
 
 
+.header-bottom .content .icon-body {
+    padding: 10px;
+}
 
+/* popular courses section bashladi */
 
+#popularcourses {
+    padding: 40px;
+}
+.popularcourses-tab {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 20px;
+}   
 
+.popularcourses-content {
+    display: grid;
+    grid-template-columns: 370px 400px 395px;
+    gap: 20px;
+}   
 
+.popularcourses-content .contents {
+    height: 400px;
+}
 
+.popularcourses-content .contents h1 {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px;
+}
 
+.popularcourses-content .contents button {
+    margin-left: 15px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid rgba(92, 175, 1, 0.4);
+}
 
+/* popular courses section tamamlandi */
 
+#justtake {
+    background-image: url(/PragmatechFoundationProject/img/call-to-action.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 50px
+}
 
+.justtake-content {
 
+    
+}
 
-/* navbar-main hissesi bashladi */
+.justtake-content h2 {
+font-size: 25px;
+padding-bottom: 5px;
 
+}
+
+.justtake-content h1 {
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    
+}
+
+.justtake-content p {
+    font-size: 20px;
+    
+    padding-bottom: 15px;
+}
+
+.justtake-content button {
+    background:#5caf01;
+    cursor: pointer;
+    margin-left: 7px;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
