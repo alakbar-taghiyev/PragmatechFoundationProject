@@ -47,9 +47,13 @@
 
 .menu ul li {
     margin: 0px 40px;
-    list-style: none;
-    
+    list-style: none;   
 }
+
+.menu ul li:hover {
+    color:  #5caf01;
+}
+
 .registration {
     display: flex;
     justify-content: space-between;
@@ -81,7 +85,7 @@
 
 .navbar-main-content {
     padding-left: 50px;
-    width: 500px;
+    width: 600px;
 }
 
 .navbar-main-table {
@@ -109,13 +113,13 @@
     font-size: 1em;
     font-weight: 200px;
     color: black;
-    margin: 25px 0px;
+    margin: 35px 0px;
 }
 
 .search {
     display: inline-block;
     border: 2px solid white;
-    width: 246px;
+    width: 368px;
     padding: 10px;
     border-radius: 5px;
 }
@@ -299,3 +303,45 @@ padding-bottom: 5px;
     border: none;
     padding: 10px;
 }
+
+/* popularcategories hissesi bashladi */
+#popularcategories {
+    padding: 35px;
+}
+.popularcategories-content {
+    display: grid;
+    grid-template-columns: 370px 400px 395px;
+    gap: 20px;
+}   
+
+.popularcategories-content .contents {
+    padding: 20px;
+    text-align: center;
+    margin: 5px 5px;
+    border-radius: 5px;
+}
+
+.popularcategories-content i {
+    font-size: 75px;
+    color: green;
+}
+
+.popularcategories-content h4 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.popularcategories-content p {
+    font-size: 20px;
+    padding: 5px 0px;
+
+}
+/* popularcategories hissesi bitdi */
+
+/* testimonials hissesi bashladi */
+#testimonials {
+    background:#5caf01;
+}
+
