@@ -15,7 +15,7 @@
 
 .logo {
     display: flex;
-    position: relative; /* baxarsan buna */
+    position: relative; 
 }
 .logo img {
     object-fit: cover;
@@ -28,8 +28,8 @@
 .logo span {
     font-size: 30px;
     padding-left: 0px;
-    padding-top: 25px;
-    position: absolute; /* baxarsan buna */
+    padding-top: 20px;
+    position: absolute; 
     left: 40px;
 }
 
@@ -42,7 +42,6 @@
 .menu ul {
     display: flex;
     justify-content: space-between;
-    font-family: 'Noto Sans', sans-serif;
 }
 
 .menu ul li {
@@ -229,7 +228,7 @@
 }
 .popularcourses-tab {
     display: grid;
-    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-columns: 110px 105px 100px 115px;
     justify-content: center;
     gap: 40px;
     padding-bottom: 20px;
@@ -265,6 +264,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     color: white;
     padding: 50px
 }
@@ -342,6 +342,35 @@ padding-bottom: 5px;
 
 /* testimonials hissesi bashladi */
 #testimonials {
-    background:#5caf01;
+    background: #eef5fd;
+    text-align: center;
+    padding: 55px;
 }
 
+.testimonials-body p {
+    padding: 20px;
+    font-size: 20px;
+    font-style: italic;
+    color: #768292;
+    
+}
+
+.testimonials-body span {
+    display: block;
+    color: #768292;
+}
+
+.quote-item {
+    padding: 20px 0px;
+}
+
+.testimonials-body h6 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #222a35;
+    line-height: 35px;
+}
+
+.testimonials-body img {
+    border-radius: 50px;
+}
