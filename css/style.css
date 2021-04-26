@@ -219,8 +219,16 @@
 
 .header-bottom .content .icon-body {
     padding: 10px;
+    margin-left: -20px;
 }
 
+.header-bottom .content .icon-body h6 {
+    font-size: 20px;
+}
+
+.header-bottom .content .icon-body p {
+    font-size: 16px;
+}
 /* popular courses section bashladi */
 
 #popularcourses {
@@ -250,6 +258,7 @@
     padding: 15px;
 }
 
+
 .popularcourses-content .contents button {
     margin-left: 15px;
     padding: 8px;
@@ -266,13 +275,9 @@
     background-size: cover;
     background-attachment: fixed;
     color: white;
-    padding: 50px
+    padding: 70px;
 }
 
-.justtake-content {
-
-    
-}
 
 .justtake-content h2 {
 font-size: 25px;
@@ -323,7 +328,7 @@ padding-bottom: 5px;
 
 .popularcategories-content i {
     font-size: 75px;
-    color: green;
+    color: #5caf01;
 }
 
 .popularcategories-content h4 {
@@ -374,3 +379,157 @@ padding-bottom: 5px;
 .testimonials-body img {
     border-radius: 50px;
 }
+
+/*  */
+
+
+
+/* .video {
+    background-image: url(/PragmatechFoundationProject/img/video-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+    position: relative;
+    padding: 10px;
+}
+
+.video i {
+    position: absolute;
+    top: 287px;
+    left: 700px;
+    font-size: 110px;
+   
+    color: white;
+}
+
+.video:hover i {
+    color: #5caf01;
+    transition: all .7s ease;
+}
+
+.media-content {
+    height: 700px;
+    background-color:#222a35;
+    color: white;
+
+} */
+
+.media-content {
+    background-color:#222a35;
+    color: white;
+    padding: 130px 0px;
+}
+
+.video {
+    background-image: url(/PragmatechFoundationProject/img/video-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.media-content .justtake-content {
+    padding-left: 30px;
+}
+
+/* partner hissesi bashladi */
+
+.partner {
+    padding: 70px 0px;
+    opacity: .5;
+}
+
+.partner:hover {
+    opacity: 1;
+    transition: all 0.15s ease-in-out 0s;
+}
+
+/* partner hissesi tamamlandi */
+
+/* pagefooter hissesi bashladi */
+
+#pagefooter {
+    background-color: #222a35;
+    color: #ffff;
+    padding: 80px 0px;
+}
+
+.footer-contents {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    gap: 115px;
+}
+
+.footer-content {
+    box-shadow: 5px 5px 5px yellow;
+}
+
+.footer-content h2 {
+    padding-bottom: 40px;
+}
+
+.footer-content button {
+    margin-left: 5px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid rgba(92, 175, 1, 0.4);
+}
+
+.footer-content p {
+   padding-top: 16px;
+}
+
+
+
+/* .footer-content {
+    padding: 0px 0px;
+    text-align: center;
+}
+
+.footer-content p {
+    padding-top: 15px;
+    padding: 0px 5px;
+    font-size: 18px;
+}
+
+.footer-content img {
+    padding: 0px 0px;
+}
+
+.footer-content button {
+    font-size: 10px;
+}
+
+.footer-content span {
+    padding-bottom: 45px;
+} */
+
+
+/* navbar dropdown hissesi */
+.dropdown {
+ position: relative;
+}
+
+.dropdown-content {
+position: absolute;
+width: 100px;
+background-color: #222a35;
+display: none;
+top: 55px;
+padding: 20px 10px;
+text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    color: white;
+}
+
+/* navbar dropdown hissesi */
+
