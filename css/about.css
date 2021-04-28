@@ -1,0 +1,176 @@
+#header-about {
+    background-image: url(../img/about-header.jpg);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.about-overlay {
+    width: 100%;
+    height: 360px;
+    position: absolute;
+    background-color:rgb(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+.about-overlay-2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+/* navbar-about hissesi bashladi */
+.navbar-about {
+    padding-bottom: 70px;
+}
+.navbar-about-main h1 {
+    font-size: 50px;
+    font-weight:700;
+    padding-top: 72px;
+    padding-bottom: 0px;
+}
+
+.navbar-about-main li {
+    list-style: none;
+}
+
+.navbar-about-main ul {
+    display: flex;
+    padding-left: 0px;
+
+}
+
+.navbar-about-main a {
+    color: white;
+    text-decoration: none;
+    padding-right: 0px;
+}
+/* navbar-about hissesi tamamlandi */
+
+/* aboutus hissesi bashladi */
+
+#aboutus {
+    padding: 90px 0px;
+}
+
+.aboutus-content {
+    padding: 65px 40px;
+}
+
+.about-heading h2 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.about-heading h1 {
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+.about-heading p {
+    font-size: 15px;
+    font-weight: 300;
+    padding-right: 100px;
+    padding-bottom: 30px;
+}
+
+.about-texts {
+    display: grid;
+    grid-template-columns: 288px 300px ;
+    gap: 55px;
+    margin-bottom: 30px;
+}
+
+.about-text h1 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.about-text p {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.aboutus-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.about-button  button {
+    background:#5caf01;
+    cursor: pointer;
+    margin-left: 0px;
+    font-size: 24px;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    padding: 11px;
+}
+/* aboutus hissesi tamamlandi */
+
+/* category-section hissesi bashladi */
+
+#category-section {
+    background: #eef5fd;
+    padding: 50px 0px;
+}
+
+
+/* category-section hissesi tamamlandi */
+
+
+/* colleagues hissesi bashladi */
+
+#colleagues {
+    padding: 70px 0px;
+}
+
+.colleagues-heading h1 {
+    text-align: center;
+    font-size: 54px;
+    font-weight: 700;
+    color: #222a35;
+    padding-bottom: 20px;
+}
+
+.colleagues-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 45px;
+}
+
+.colleagues-item h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #222a35;
+}
+
+.colleagues-item p {
+    font-size: 15px;
+    font-weight: 600;
+    color: #768292;
+}
+
+.colleagues-content {
+    text-align: center;
+    padding: 10px 0px;
+    line-height: 35px;
+}
+
+.social-items {
+    text-align: center;
+}
+
+.social-items i {
+    padding-left: 10px;
+}
+
+.social-items a {
+    color:#222a35;
+}
+
+/* colleagues hissesi tamamlandi */

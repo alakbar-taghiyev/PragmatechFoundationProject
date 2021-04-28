@@ -17,3 +17,12 @@ body {
     font-size: 40px;
     font-weight: 700;
 }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+button {
+    background: none;
+    cursor: pointer;
+    }

@@ -1,0 +1,71 @@
+#header-categ {
+    background-image: url(../img/header-categ.jpg);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.categ-overlay {
+    width: 100%;
+    height: 360px;
+    position: absolute;
+    background-color:rgb(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+.categ-overlay-2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+/* navbar-categ hissesi bashladi */
+.navbar-categ {
+    padding-bottom: 70px;
+}
+.navbar-categ-main h1 {
+    font-size: 50px;
+    font-weight:700;
+    padding-top: 72px;
+    padding-bottom: 0px;
+}
+
+.navbar-categ-main li {
+    list-style: none;
+}
+
+.navbar-categ-main ul {
+    display: flex;
+    padding-left: 0px;
+
+}
+
+.navbar-categ-main a {
+    color: white;
+    text-decoration: none;
+    padding-right: 0px;
+}
+
+/* navbar-categ hissesi tamamlandi */
+
+/* lookingfor hissesi bashladi */
+    #lookingfor {
+        padding: 50px 0px;
+        background-color: #eef5fd;
+    }
+/* lookingfor hissesi tamamladi */
+
+.navbar-main-contents h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    color: #222a35;
+    padding-bottom: 10px;
+}
+
+.navbar-main-contents p {
+    font-size: 19px;
+    font-weight:500;
+    color: #768292;
+    padding-bottom: 35px;
+}
