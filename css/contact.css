@@ -1,0 +1,74 @@
+#header-contact {
+    background-image: url(../img/contact-header.jpg);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.contact-overlay {
+    width: 100%;
+    height: 360px;
+    position: absolute;
+    background-color:rgb(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+.contact-overlay-2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+/* navbar-main hissesi bashladi */
+#contact-main {
+    background-color:#eef5fd;
+    padding: 70px 0px;
+    color: #5caf01;
+}
+
+.contact-items {
+    display: grid;
+    grid-template-columns: 270px 240px 260px 200px;
+    gap: 45px;
+}
+
+.contact-item {
+    display: flex;
+}
+
+.contact-item .icon-style i {
+    font-size: 55px;
+    padding-right: 30px;
+    padding-top: 5px;
+}
+
+.icon-body h2 {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 10px ;
+}
+/* navbar-main hissesi tamamlandi */
+
+/* askquestion hissesi bashladi */
+.question-heading {
+    text-align: center;
+}
+
+.question-heading h2 {
+    font-size: 20px;
+    font-weight: 500;
+ }
+
+.question-heading h1 {
+    font-size: 15px;
+    font-weight: 500;
+    color: #222a35;
+ }
+
+ .question-contents {
+    display: grid;
+    grid-template-columns: auto auto auto auto; 
+    gap: 10px;
+ }
+
+/* askquestion hissesi bashladi */
