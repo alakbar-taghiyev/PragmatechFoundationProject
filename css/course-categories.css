@@ -7,7 +7,7 @@
 }
 .categ-overlay {
     width: 100%;
-    height: 360px;
+    height: 367px;
     position: absolute;
     background-color:rgb(0, 0, 0, 0.5);
     z-index: 0;
@@ -33,12 +33,17 @@
 
 .navbar-categ-main li {
     list-style: none;
+    padding-right: 20px;
+    font-size: 19px;
 }
 
 .navbar-categ-main ul {
     display: flex;
     padding-left: 0px;
+}
 
+.navbar-categ-main li:hover  a {
+    color: #768292;
 }
 
 .navbar-categ-main a {

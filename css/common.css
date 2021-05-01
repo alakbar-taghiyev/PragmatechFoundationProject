@@ -9,13 +9,14 @@ body {
 }
 
 .comman-section-header h2 {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 500;
 }
 
 .comman-section-header h1 {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 700;
+    line-height: 60px;
 }
 
 a {
