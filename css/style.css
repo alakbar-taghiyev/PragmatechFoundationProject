@@ -22,6 +22,35 @@
 }
 
 /* navbar hissesi bashladi */
+
+.dropbtn {
+    padding: 30px 0px;
+}
+
+.dropdown {
+ position: relative;
+}
+
+.dropdown-content {
+position: absolute;
+width: 100px;
+background-color: #222a35;
+display: none;
+top: 55px; 
+padding: 20px 20px;  
+text-decoration: none;
+line-height: 34px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    color: white;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -360,6 +389,12 @@ padding-bottom: 5px;
     text-align: center;
     margin: 5px 5px;
     border-radius: 5px;
+    transition: all ease 50s;
+}
+
+.contents :hover {
+    border: 1px solid gray;
+    cursor: pointer;
 }
 
 .popularcategories-content i {
@@ -515,32 +550,6 @@ padding-bottom: 5px;
     line-height: 35px;
 }
 
-/* navbar dropdown hissesi */
-.dropdown {
- position: relative;
-}
-
-.dropdown-content {
-position: absolute;
-width: 100px;
-background-color: #222a35;
-display: none;
-top: 55px; 
-padding: 20px 20px;  
-text-decoration: none;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown-content a {
-    text-decoration: none;
-    color: white;
-}
-
-/* navbar dropdown hissesi */
-
 /* copyright hissesi bashladi */
  #copyright {
     background-color: #2a323c;
@@ -558,10 +567,6 @@ text-decoration: none;
     padding-right: 6px;
 }
 
-.popularcategories-content:hover .contents {
-    border: 1px solid gray;
-    transition: all ease 50s;
-    cursor: pointer;
-}
+
  
 /* copyright hissesi bashladi */

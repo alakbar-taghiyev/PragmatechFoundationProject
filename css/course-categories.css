@@ -21,6 +21,9 @@
 }
 
 /* navbar-categ hissesi bashladi */
+.dropbtn {
+    padding: 30px 0px;
+}
 .navbar-categ {
     padding-bottom: 70px;
 }
