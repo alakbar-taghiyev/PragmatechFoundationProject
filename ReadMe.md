@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Ələkbər Tağıyev
 
 # Haqqmda qısa məlumat
@@ -18,6 +19,12 @@
 # Tədris müddətində yazdığım məqalələr
 * [Məqalə adı]
 * [Məqalə adı]
+=======
+## Tağıyev Ələkbər
+
+Haqqımda qısa məlumat
+
+>>>>>>> 40509f84502961d82e4168466a19ef9ff8105241
 
 Hazırlayacağım layihə:
 
