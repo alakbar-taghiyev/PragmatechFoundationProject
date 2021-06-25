@@ -1,4 +1,4 @@
-# Tağıyev Ələkbər
+## Tağıyev Ələkbər
 
 Haqqımda qısa məlumat
 
