@@ -1,0 +1,1006 @@
+#header {
+    background-image: url(../img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-x: 80%;
+    background-position-y: 100%;
+}
+
+/* navbar hissəsi başladı */
+.navbar{
+    padding: 20px 20px;
+    padding-bottom: 110px;
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: right;
+}
+
+.menu ul li:hover a {
+    color: #190A32;
+}
+
+.menu ul li {
+    list-style: none;
+    padding-right: 25px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.download-button button {
+    border: 1px solid gray;
+    background-color: white;
+    color: #190A32;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+.download-button button:hover {
+    background: linear-gradient(to right, #6541c1 0%, #d43396 98%, #d43396 100%);
+    color: white;
+    border: none;
+}
+
+.download-button {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+/* navbar hissəsi bitdi */
+
+/* navbar-main hissəsi başladı */
+
+.navbar-main-content {
+    padding: 40px 45px;
+}
+
+.navbar-main-contents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 60px 0px;
+}
+
+.navbar-main-content h1 {
+    color: #190A32;
+    font-size: 42px;
+    line-height: 60px;
+    font-weight: 600;
+    margin-bottom: 11px;
+}
+.navbar-main-content p {
+    color: #666;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 54px;
+}
+
+.navbar-main-content button {
+    border: 1px solid gray;
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 10px;
+    margin-right: 15px;   
+}
+
+.navbar-main-content .download {
+    background: linear-gradient(to right, #6541c1 0%, #d43396 98%, #d43396 100%);
+    color: white;
+    padding: 12px 20px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar-main-content .discover {
+    background: white;
+    padding: 12px 20px;
+    font-weight: 600;
+    border: 2px solid rgb(153, 114, 158);
+    cursor: pointer;
+    transition: .5s ease all;
+}
+
+.navbar-main-content .discover:hover {
+    color: white;
+    background: linear-gradient(to right, #6541c1 0%, #d43396 98%, #d43396 100%);
+}
+
+.navbar-main-picture {
+    position: relative;
+    height: 390px;
+}
+
+.navbar-main-picture img {
+    width: 110%;
+    position: absolute;
+    top: -5%;
+    left: -25%;
+}
+/* navbar-main hissəsi bitdi */
+
+/* navbar-main-bottom hissəsi başladı */
+
+
+.navbar-main-bottom {
+    padding: 20px;
+}
+
+.statics {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.static {
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    
+}
+
+.static h5 {
+    font-size: 50px;
+    color: rgb(138, 54, 138);
+}
+
+.static span {
+    font-size: 25px;
+    margin-bottom: 5px;
+    padding-left: 4px;
+    color: gray;   
+}
+
+hr {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+/* navbar-main-bottom hissəsi bitdi */
+
+/*app-features hissəsi başladı */
+#app-features {
+    padding: 40px 0px;
+}
+
+.features-title {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+.features-heading {
+    text-align: center;
+}
+
+.features-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.features-items h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.features-items i {
+    font-size: 40px;
+    color: #666;
+}
+
+.prew-items {  
+    left: 0px;
+}
+
+.next-items {
+    right: 0px;  
+}
+
+.line-bottom {
+    width: 82%;
+    height: 4px;
+    background: linear-gradient(to right, #6541c1 0%, #d43396 98%, #d43396 100%);
+    margin: 20px auto;
+    
+}
+
+
+/* app-features hissəsi bitdi*/
+
+/* app-work hissəsi başladı */
+
+.work-contents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+ #app-work {
+    background-image: url(../img/waves.png);
+    background-repeat: no-repeat;
+    padding: 50px 0px;
+}
+
+.work-picture {
+    position: relative;
+    height: 700px;
+}
+
+.work-picture .mobile {
+    z-index: 2;
+    position: absolute;
+}
+
+.work-picture .jessica {
+    position: absolute;
+    top: 17px;
+    left: 22px;
+    width: 51%;
+    border-radius: 25px;
+    z-index: 1;
+}
+
+.content-title h1 {
+    font-weight: 500;
+}
+
+.content-title {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.lines {
+    height: 3px;
+    background: linear-gradient(to right, #6541c1 0%, #d43396 98%, #d43396 100%);
+    width: 69%;
+    position: absolute;
+    right: 58%;
+    top: 46%;
+    transform: rotate(90deg);
+    border-radius: 32%;
+    z-index: 1;
+}
+
+.content-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.content-buttons button {
+    display: flex;
+}
+
+.content-buttons .macOS {
+    background: linear-gradient(to right, #6541c1 0%, #d43396 98%, #d43396 100%);
+    color: white;
+    padding: 12px 32px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    border-radius: 28px;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.content-buttons .Windows {
+    border: 1px solid gray;
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 12px 32px;
+    margin-right: 15px; 
+    margin-left: 10px;
+    cursor: pointer;
+    transition: .5s ease all;
+}
+
+.content-buttons .Windows:hover {
+    background: linear-gradient(to right, #6541c1 0%, #d43396 98%, #d43396 100%);
+    color: white;
+}
+
+.content-buttons .Windows:hover i {
+    color: white;
+}
+
+.content-buttons .Windows i {
+    color: rgb(138, 54, 138);
+}
+
+.macOS p {
+    padding-left: 20px;
+}
+
+.Windows p {
+    padding-left: 20px;
+}
+
+.content-items {
+    padding: 40px 0px;
+    position: relative;
+    line-height: 35px;
+    z-index: 2;
+}
+
+.work-content{
+    position: relative;
+}
+
+.content-items i {
+    font-size: 40px;
+    border-radius: 50px;
+    border: 3px solid #3a1b6d;
+    padding: 23px 20px;
+    color:#3a1b6d;
+    cursor: pointer;
+    transition: all .4s ease;
+    background: white;
+}
+
+.content-items i:hover {
+    background: rgb(138, 54, 138);
+    color: white;
+}
+
+.content-items p {
+    padding-right: 40px;
+}
+
+.content-items h6 {
+    font-size: 20px;
+    color: #150A33;
+    font-weight: 500;
+}
+
+/* app-work hissəsi bitdi */
+
+/* app-data hissəsi başladı */
+
+#app-data {
+    padding: 60px 0px;
+}
+
+.data-contents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+
+.data-article {
+    padding-top: 50px;
+}
+
+.data-article i {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: rgb(138, 54, 138); 
+}
+
+.data-article span {
+    color: rgb(138, 54, 138);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.data-picture {
+    box-shadow: 0 16px 43px rgb(78 48 135 / 24%);
+}
+
+.responsive-article {
+    padding-top: 50px;
+}
+
+/* app-data hissəsi bitdi */
+
+/* tutorial hissəsi başladı */
+
+#tutorial {
+    background: url(../img/video-bg-1-13-1-1-3-1.webp) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+}
+
+.tutorial-content h2 {
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.tutorial-content {
+    position: absolute;
+    top: 28%;
+    left: 36%;
+}
+
+.play {
+    background: #D9378B;
+    padding: 23px 33px;
+    font-size: 31px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+    width: 8%;
+    position: absolute;
+    top: 90px;
+    left: 160px;
+}
+
+#tutorial {
+    position: relative;
+}
+
+.tutorial-overlay-2 {
+    text-align: center;
+    width: 100%;
+    height: 100%; 
+    z-index: 1;
+    position: relative;
+}
+
+.tutorial-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(61,30,130,.67);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+
+/* tutorial hissəsi bitdi */
+
+/* Screenshots hissəsi başladı */
+
+#Screenshots {
+    position: relative;
+    margin: 60px 0px;
+}
+
+.screen-title {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.general-windows {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    padding-top: 15px;
+}
+
+.second-img {
+    border-radius: 33px;
+}
+
+.phone-background {
+    position: absolute;
+    top: 18%;
+    right: 41%;
+    width: 18%;
+    height: 82%;
+}
+
+.left {
+    position: absolute;
+    bottom: -10%;
+    left: 47%;
+    font-size: 14px;
+    font-weight: 600;
+    background: #E9E8E8;
+    border-radius: 50%;
+    padding: 13px 20px;
+    cursor: pointer;
+}
+
+.right {
+    position: absolute;
+    bottom: -10%;
+    right: 47%;
+    font-size: 14px;
+    font-weight: 600;
+    background: #E9E8E8;
+    border-radius: 50%;
+    padding: 13px 20px;
+    cursor: pointer;
+}
+
+/* Screenshots hissəsi bitdi */
+
+/* designed_worked hissəsi başladı */
+
+#designed_worked {
+    padding: 80px 0px;
+}
+
+.design-contents {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+}
+
+.design-article {
+    padding-top: 50px;
+}
+
+.design-article i {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: rgb(138, 54, 138); 
+}
+
+.design-article span {
+    color: rgb(138, 54, 138);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.design-pictures {
+    position: relative;
+}
+
+.picture .wordpress {
+    position: absolute;
+    top: 0;
+    right: 205px;
+}
+
+.picture .js {
+    position: absolute;
+    top: 48px;
+    right: 80px;
+}
+
+.picture .php {
+    position: absolute;
+    top: 170px;
+    right: 370px;
+}
+
+.picture .css {
+    position: absolute;
+    top: 196px;
+    right: 220px;
+}
+
+.picture .java {
+    position: absolute;
+    top: 175px;
+    right: 20px;
+}
+
+/* designed_worked hissəsi bitdi */
+
+/* reasonable_price hissəsi başladı */
+
+#reasonable_price {
+    padding: 70px 0px;
+    margin: 40px 0px;
+}
+
+.price-title {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center
+}
+
+.price-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+.price-icon i {
+    color: rgb(138, 54, 138);
+    transform: rotate(180deg);
+    margin: 0px 15px;
+}
+
+.month {
+    color: #666;
+}
+
+.price-accounts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.price-account h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.price-account h1 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 300;
+    color: rgb(138, 54, 138);
+}
+
+.price-account span {
+    padding-left: 50px;
+    color: #666;
+}
+
+.price-account {
+    border: 3px solid  #656565;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.price-account button {
+    background: white;
+    color: black;
+    padding: 12px 32px;
+    font-weight: 600;
+    border: 2px solid rgb(138, 54, 138);
+    cursor: pointer;
+    border-radius: 28px;
+    font-size: 15px;
+    margin-left: 40px;
+    text-align: center;
+    transition: .5s ease all;
+}
+
+.price-account .business {
+    margin-top: 20px;
+    background: linear-gradient(to right, #6541c1 0%, #d43396 98%, #d43396 100%);
+    color: white;
+}
+
+.price-account button:hover {
+    background: linear-gradient(to right, #6541c1 0%, #d43396 98%, #d43396 100%);
+    color: white;
+}
+
+.price-account ul {
+    list-style-type: none;
+    line-height: 28px;
+}
+
+.price-account li {
+    font-size: 14px;
+    color: #170b31;
+    font-weight: 500;
+}
+
+.price-account i {
+    margin-right: 10px;
+}
+
+.price-account .fa-check {
+    color: green;
+}
+
+.price-account .fa-times {
+    color: #ff0302;
+}
+
+.great_width {
+    height: 101%;
+    height: 101%;
+    margin-top: -20px;
+    border: 3px solid rgb(138, 54, 138);
+}
+
+/* reasonable_price hissəsi bitdi */
+
+/* honorable_clients hissəsi başladı */
+
+#honorable_clients{
+    margin:60px 0px;
+}
+
+.clients {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.heroes {
+    position: relative;
+    height: 455px;
+}
+
+.hero {
+    position: absolute;
+    width: 15%;
+}
+
+.hero-1 {
+    left: 64%;
+    top: -25px;
+}
+
+.hero-2 {
+    left: 31%;
+    top: 8px;
+}
+
+.hero-3 {
+    left: 13%;
+    top: 136px;
+}
+
+.hero-4 {
+    top: 288px;
+    right: 63%;
+}
+
+.hero-5 {
+    left: 51%;
+    top: 352px;
+}
+
+.hero-6 {
+    right: 7%;
+    top: 305px;
+}
+
+.hero-7 {
+    position: absolute;
+    left: 47%;
+    top: 121px; 
+}
+
+.client-content h1 {
+    margin-bottom: 30px;
+}
+
+.client-content p {
+    margin: 20px 0px;
+}
+
+.client-content h3 {
+    margin: 20px 0px;
+    font-weight: 500;
+    color:#150A33;
+}
+
+.client-content span {
+    display: block;
+    margin: 20px 0px;
+    color: rgb(138, 54, 138);
+}
+
+.client-content i {
+    color: rgb(138, 54, 138);
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+/* honorable_clients hissəsi bitdi */
+
+/* latest_news hissəsi başladı */
+
+.news-title {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+.news-contents {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-top: 15px;
+}
+
+.text-box ul {
+    display: flex;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.text-box  ul a {
+    text-decoration: none;
+    margin-right: 15px;
+    color: #656565;
+}
+
+.text-box a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #150a33;
+    line-height: 30px;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.text-box a:hover h3{
+    color: rgb(138, 54, 138);
+}
+
+.text-box span {
+    color: rgb(138, 54, 138);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.xett {
+    height: 4px;
+    width: 95%;
+    margin: 10px 0px;
+    background: linear-gradient(to right, #6541c1 0%, #d43396 98%, #d43396 100%);
+}
+/* latest_news hissəsi bitdi */
+
+/* footer hissəsi başladı */
+
+#footer {
+    background: url(../img/footer-background.webp) no-repeat;
+    background-position-x: 50%;
+    background-size: cover;
+    padding: 60px 0px;
+    height: 1080px;
+    margin-top: 50px;
+}
+
+.footer-heading {
+    text-align: center;
+}
+
+.footer-tabs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding-bottom: 50px;
+}
+
+.button-style {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(138, 54, 138);
+    color: black;
+    padding: 30px 32px;
+    font-weight: 600;
+    border: 2px solid rgb(138, 54, 138);
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 15px;
+    margin-left: 40px;
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 50px;
+}
+
+.subscribe {
+    background: linear-gradient(to right, #6541c1 0%, #d43396 98%, #d43396 100%);
+    color: white;
+    padding: 12px 32px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    border-radius: 28px;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 15px;
+    font-size: 25px;
+}
+
+.contact i {
+    margin-right: 10px;
+}
+
+.contact input {
+    background: transparent;
+    border: none;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.first-text {
+    color: #1a0a37;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    padding-right: 30px;
+    padding-top: 15px;
+}
+
+.tab-social {
+    color: #8b8b8b;
+    font-size: 20px;
+}
+
+.tab-social i {
+    padding: 10px 15px 0px 0px;
+}
+
+.tab-text span {
+    color: #1a0a37;
+    font-weight: 500;
+    padding-right: 10px;
+}
+
+.tab-title h2 {
+    font-weight: 600;
+}
+
+.menu-links {
+    line-height: 27px;
+    padding-right: 17px;
+}
+
+.tab-text ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.tab-text li {
+    display: inline-block;
+    color: #656565;
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+.tab-text a {
+    padding: 10px 0px;
+    text-decoration: none;
+}
+
+.tab-text i {
+    color: rgb(107, 107, 228);
+    padding-right: 5px ;
+}
+
+.navigations {
+    position: absolute;
+}
+
+.left-arrow {
+    top: 13px;
+    font-size: 14px;
+    font-weight: 600;
+    background: #6541c1;
+    border-radius: 50%;
+    padding: 7px 14px;
+    cursor: pointer;
+    position: absolute;
+    color: white;
+}
+
+.right-arrow {
+    top: 13px;
+    left: 45px;
+    font-size: 14px;
+    font-weight: 600;
+    background: #6541c1;
+    border-radius: 50%;
+    padding: 7px 14px;
+    cursor: pointer;
+    position: absolute;
+    color: white;
+}
+
+.copyRight {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+/* footer hissəsi bitdi */

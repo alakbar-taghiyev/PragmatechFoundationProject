@@ -1,0 +1,23 @@
+.first-heading {
+    font-size: 30px;
+    color: #190a32;
+    font-weight: 600;
+}
+
+.second-heading {
+    font-size: 16px;
+    color: #666;
+    line-height: 26px;
+    margin: 15px 0px;
+}
+
+.prew-next-btn {
+    position: absolute;
+    top: 76px;
+    font-size: 14px;
+    font-weight: 600;
+    background: #E9E8E8;
+    border-radius: 50%;
+    padding: 13px 20px;
+    cursor:pointer;
+}
