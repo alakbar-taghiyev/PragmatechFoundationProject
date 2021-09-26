@@ -2,7 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.comman-section-header{
+.comman-section-header {
     text-align: center;
     padding: 20px;
     line-height: 40px;
@@ -23,7 +23,30 @@ a {
     color: white;
     text-decoration: none;
 }
+
 button {
     background: none;
     cursor: pointer;
-    }
+}
+
+
+
+.btn {
+    display: inline-block;
+}
+
+.btn button {
+    background: #5caf01;
+    cursor: pointer;
+    margin-left: 7px;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #5caf01;
+    padding: 10px;
+
+}
+
+.btn:hover button {
+    background: none;
+}

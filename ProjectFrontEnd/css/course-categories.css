@@ -77,3 +77,20 @@
     color: #768292;
     padding-bottom: 35px;
 }
+
+.looking-btn button {
+    background: #5caf01;
+    cursor: pointer;
+    margin-left: 7px;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #5caf01;
+    padding: 10px;
+
+}
+
+.looking-btn:hover button {
+    background: none;
+    color: green;
+}
